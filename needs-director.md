@@ -10,4 +10,4 @@ Scenario: Compute parking slots to reserve for visiting specialists
 
   Given visitor counter value is available
   When Specialists visit hospital
-  Then Find parking available parking slot using aggregate visitor count, availability of beds and nursing staff
+  Then Find parking available parking slot using aggregate visitor count
