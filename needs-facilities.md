@@ -4,7 +4,7 @@ Scenario: Report visitor trends during a week of operation
 
   Given Visitor count value is available
   When count of seating and parking change according to visitor count
-  Then report visitor trends 
+  Then report visitor trends
 
 Scenario: Alert when seating capacity is full
 
