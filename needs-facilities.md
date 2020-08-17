@@ -11,4 +11,3 @@ Scenario: Alert when seating capacity is full
   Given Count of seating and total seating capacity
   When count of seating is equal to total seating capacity
   Then Raise alert
-  
