@@ -4,8 +4,8 @@ Scenario: Recover across restarts of the server
 that runs the visit-counter
 
   Given Visitor count is available
-  When Server restrarts
-  Then recover visitor count value from aggreggate count value
+  When Server restarts
+  Then recover visitor count value from aggregate count value
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
